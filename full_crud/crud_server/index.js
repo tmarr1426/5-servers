@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
-const cors = require("cors"
-)
+const cors = require("cors")
+
 const crudController = require("./controllers/crud_controller");
 
 const PORT = 8080;
